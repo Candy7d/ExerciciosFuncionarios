@@ -18,7 +18,7 @@ public class MainApp {
     public static void main(String[] args) {
 
         Setor administrativo = BuildSetor.build(1, SetorEnum.ADMINISTRATIVO);
-        Setor desenvolvimento = BuildSetor.build(1, SetorEnum.DESENVOLVIMENTO);
+        Setor desenvolvimento = BuildSetor.build(2, SetorEnum.DESENVOLVIMENTO);
 
         Dependente maria = BuildDependente.build("Maria", LocalDate.of(1993, 3, 7));
         Dependente rafael = BuildDependente.build("Rafael", LocalDate.of(1995, 3, 10));
